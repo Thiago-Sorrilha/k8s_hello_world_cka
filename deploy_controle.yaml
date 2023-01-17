@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: controle
+  labels:
+    app: controle
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: controle
+  template:
+    metadata:
+      labels:
+        app: controle
+    spec:
+      containers:
+      - name: controlepython
+        image: tpbsdocker/controle_python
+        ports:
+        - containerPort: 8080
