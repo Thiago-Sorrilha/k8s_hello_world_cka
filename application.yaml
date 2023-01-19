@@ -2,7 +2,7 @@
  kind: Application
  metadata:
   name: hello-world
-  namespace: default
+  namespace: argocd
  espec:
   project: default
 
