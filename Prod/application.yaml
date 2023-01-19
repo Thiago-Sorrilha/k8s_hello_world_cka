@@ -19,5 +19,5 @@
     - CreateNamespace=true
 
     automated:
-      selfHeal: true # mantem o que esta no repo. subscreve qualquer alteracao feita manualmente ao cluster
+      selfHeal: true # mantem o que esta no repo. subscreve qualquer alteracao
       prone: true
