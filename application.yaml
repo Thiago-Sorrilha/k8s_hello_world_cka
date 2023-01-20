@@ -18,4 +18,4 @@ spec:
     - CreateNamespace=true
     automated:
       selfHeal: true # mantem o que esta no repo. subscreve qualquer alteracao
-      prone: true
+      prune: true
