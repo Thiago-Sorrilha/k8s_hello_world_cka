@@ -3,7 +3,7 @@ kind: Application
 metadata:
   name: hello-world
   namespace: argocd
-espec:
+spec:
   project: default
    
   source:
