@@ -4,10 +4,14 @@ metadata:
   name: hello-world
 spec:
 <<<<<<< HEAD
+<<<<<<< HEAD
   replicas: 5 
 =======
   replicas: 6
 >>>>>>> 201d838 (WWW)
+=======
+  replicas: 6 
+>>>>>>> fa005c3e3189ca6181622247737c63effc3511da
   selector:
     matchLabels:
       app: hello-world
